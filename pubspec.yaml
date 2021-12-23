@@ -1,0 +1,36 @@
+name: assignment
+description: Flutter Assignment for Flutter Developer role at India Today Group.
+
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.14.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  get: ^4.6.1
+  http: ^0.13.4
+  date_time_picker: ^2.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/ask.png
+    - assets/images/filter.png
+    - assets/images/hamburger.png
+    - assets/images/home.png
+    - assets/images/logo.png
+    - assets/images/profile.png
+    - assets/images/reports.png
+    - assets/images/search.png
+    - assets/images/sort.png
+    - assets/images/talk.png
